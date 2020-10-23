@@ -1,0 +1,23 @@
+﻿<Window x:Class="actividad_UT2_8.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:actividad_UT2_8"
+        mc:Ignorable="d"
+        Title="Cuadros de Texto" Height="324.953" Width="385.372" Icon="130.ico">
+    <Grid>
+        <TextBox x:Name="nombreTextoBox" HorizontalAlignment="Left" Height="23" Margin="35,43,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" KeyDown="NombreApellido_KeyDown"/>
+        <TextBlock HorizontalAlignment="Left" Margin="35,22,0,0" TextWrapping="Wrap" Text="Nombre" VerticalAlignment="Top"/>
+        <TextBlock x:Name="avisoNombreTextBlock" HorizontalAlignment="Left" Margin="173,43,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="23" Width="107" Foreground="Gray"/>
+
+        <TextBox x:Name="apellidoTextoBox" HorizontalAlignment="Left" Height="23" Margin="35,123,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" KeyDown="NombreApellido_KeyDown"/>
+        <TextBlock HorizontalAlignment="Left" Margin="35,102,0,0" TextWrapping="Wrap" Text="Apellido" VerticalAlignment="Top"/>
+        <TextBlock x:Name="avisoApellidoTextBlock" HorizontalAlignment="Left" Margin="173,123,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="23" Width="107" Foreground="Gray"/>
+
+        <TextBox x:Name="edadTextoBox" HorizontalAlignment="Left" Height="23" Margin="35,207,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" KeyDown="Edad_KeyDown"/>
+        <TextBlock HorizontalAlignment="Left" Margin="35,186,0,0" TextWrapping="Wrap" Text="Edad" VerticalAlignment="Top"/>
+        <TextBlock x:Name="avisoEdadTextBlock" HorizontalAlignment="Left" Margin="173,207,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="23" Width="107"/>
+
+    </Grid>
+</Window>
